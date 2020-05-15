@@ -1,4 +1,4 @@
-vue-cb-turntable
+vue-marquee
 ======================
 
 Build Setup
@@ -8,7 +8,7 @@ Build Setup
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8081
+# serve with hot reload at localhost:8080
 npm run dev
 
 # build for production with minification
@@ -19,6 +19,7 @@ How To Use
 ----------------------
 ## 入口文件或相应vue文件引入
 ```bash
+在需要的地方引入，例如入口index.js文件
 import Vue from 'vue'
 import VueMarquee from 'msg-vue-marquee'
 Vue.use(VueMarquee)
