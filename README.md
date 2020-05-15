@@ -1,5 +1,6 @@
 vue-marquee
 ======================
+支持横向无缝滚动和纵向无缝滚动，当区域内容不足以撑起外面盒子时不进行滚动，内容超过盒子宽度或者高度时进行滚动。适用于公告、消息通知等场景。
 
 Build Setup
 ----------------------
@@ -14,6 +15,7 @@ npm run dev
 # build for production with minification
 npm run build
 ```
+
 
 How To Use
 ----------------------
